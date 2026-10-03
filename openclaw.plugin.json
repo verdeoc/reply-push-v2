@@ -1,0 +1,6 @@
+{
+  "id": "reply-push-v2",
+  "name": "Reply Push v2",
+  "activation": { "onStartup": true },
+  "configSchema": { "type": "object", "additionalProperties": false }
+}

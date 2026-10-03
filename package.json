@@ -1,0 +1,10 @@
+{
+  "name": "reply-push-v2",
+  "version": "2.1.0",
+  "edition": "free",
+  "description": "Native per-category iOS push notifications for OpenClaw.",
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Reply Push v2",
+  "openclaw": { "extensions": ["./index.js"] }
+}
