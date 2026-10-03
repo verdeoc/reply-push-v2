@@ -3,8 +3,8 @@
 Native iOS push notifications for OpenClaw, delivered to the **official App Store app** (no PWA install).
 
 > **This is the FREE edition: it pushes one category — `agentFinished` (an agent finishes a turn).**
-> The **Pro** edition adds the other 4 categories (questions, mentions, scheduled-task failures, subagent failures):
-> **https://verdeoc.gumroad.com/l/openclaw-ios-notifications**
+> The **Pro** edition adds the other 4 categories (questions, mentions, scheduled-task failures, subagent failures).
+> Pro is a separate paid edition distributed on Gumroad — search for **reply-push-v2** there.
 
 ## Free vs Pro
 
@@ -37,13 +37,13 @@ Native iOS push notifications for OpenClaw, delivered to the **official App Stor
    ```
    (`hooks.allowConversationAccess:true` is required, otherwise OpenClaw blocks the `agent_end` hook.)
 3. Restart the Gateway, then confirm with: `openclaw plugins list`
-4. On load you will see: `[reply-push-v2] FREE edition: agentFinished only. Pro (all 5 categories): <gumroad>`
+4. On load you will see: `[reply-push-v2] FREE edition: agentFinished only. Pro (all 5 categories): Gumroad - search "reply-push-v2"`
 
 ## Test it
 Ask your agent to do something. When it finishes, you should get a native `OpenClaw agent finished` push on the lock screen.
 
 ## Upgrading to Pro
-Get all 5 categories (plus allowlist / custom mention regex): **https://verdeoc.gumroad.com/l/openclaw-ios-notifications** ($5, instant download).
+Get all 5 categories (plus allowlist / custom mention regex): Pro is a paid edition on Gumroad (search for **reply-push-v2**), $5, instant download.
 
 ## License
 MIT — this free edition may be used, modified and redistributed freely. The Pro edition ships under a separate commercial license.

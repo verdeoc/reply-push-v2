@@ -22,7 +22,7 @@ const DEBUG = process.env.REPLY_PUSH_DEBUG === "1";
 const EDITION = "free";
 const FREE_CATEGORIES = new Set(["agentFinished"]);
 const editionAllows = (cat) => EDITION === "pro" || FREE_CATEGORIES.has(cat);
-const GUMROAD = "https://verdeoc.gumroad.com/l/openclaw-ios-notifications";
+const GUMROAD = "Gumroad - search \"reply-push-v2\"";
 
 // Optional comma-separated allowlist of agent ids. Empty = all agents.
 const AGENT_ALLOWLIST = (process.env.REPLY_PUSH_AGENTS || "")
