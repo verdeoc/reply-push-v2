@@ -2,7 +2,7 @@
 
 Native iOS push notifications for OpenClaw, delivered to the **official App Store app** (no PWA install).
 
-![reply-push-v2 - native iOS push notification](assets/demo.gif)
+![reply-push-v2 - native iOS push notification](https://raw.githubusercontent.com/verdeoc/reply-push-v2/main/assets/demo.gif)
 
 > **This is the FREE edition: it pushes one category — `agentFinished` (an agent finishes a turn).**
 > The **Pro** edition adds the other 4 categories (questions, mentions, scheduled-task failures, subagent failures).
