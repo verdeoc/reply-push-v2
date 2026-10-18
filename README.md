@@ -30,6 +30,14 @@ This plugin is an add-on for native APNs delivery through the official OpenClaw 
 
 If no notification arrives, verify in this order: the iOS app is paired and approved, iOS notifications are enabled, the Gateway can reach `ios-push-relay.openclaw.ai`, and `openclaw plugins list` shows this plugin loaded.
 
+Core OpenClaw issues that are separate from this plugin:
+
+- [iOS app notification settings guidance](https://github.com/openclaw/openclaw/issues/164557)
+- [Foreground Web Push suppression](https://github.com/openclaw/openclaw/issues/164585)
+- [Production/sandbox relay routing](https://github.com/openclaw/openclaw/issues/164147)
+
+These are OpenClaw core/UI/relay concerns. `reply-push-v2` does not claim to fix them; it adds its own native `agentFinished` notification path.
+
 ## Compatibility
 
 - Package: `2.1.1`
