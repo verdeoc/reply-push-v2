@@ -24,6 +24,12 @@ Native iOS push notifications for OpenClaw, delivered to the **official App Stor
 - Reachability to `ios-push-relay.openclaw.ai`.
 - iOS only; Android is not supported.
 
+## Scope and troubleshooting
+
+This plugin is an add-on for native APNs delivery through the official OpenClaw iOS app. It does **not** change OpenClaw core Web Push behavior, the iOS app notification settings screen, PWA layout, or relay registration logic. Those remain OpenClaw platform concerns.
+
+If no notification arrives, verify in this order: the iOS app is paired and approved, iOS notifications are enabled, the Gateway can reach `ios-push-relay.openclaw.ai`, and `openclaw plugins list` shows this plugin loaded.
+
 ## Compatibility
 
 - Package: `2.1.1`
