@@ -4,7 +4,7 @@ Native iOS push notifications for OpenClaw, delivered to the **official App Stor
 
 ![reply-push-v2 - native iOS push notification](https://raw.githubusercontent.com/verdeoc/reply-push-v2/main/assets/demo.gif)
 
-> **Free edition:** sends one notification category, `agentFinished` (an agent finishes a turn). Pro adds four more categories and is distributed separately on Gumroad.
+> **Free edition 2.1.1:** sends one notification category, `agentFinished` (an agent finishes a turn). Pro adds four more categories and is distributed separately on Gumroad.
 
 ## Free vs Pro
 
@@ -23,6 +23,12 @@ Native iOS push notifications for OpenClaw, delivered to the **official App Stor
 - iOS notifications enabled for the app.
 - Reachability to `ios-push-relay.openclaw.ai`.
 - iOS only; Android is not supported.
+
+## Compatibility
+
+- Package: `2.1.1`
+- OpenClaw build target: `2026.9.6`
+- Plugin API: `>=2026.3.24-beta.2`
 
 ## Install (recommended: npm)
 
@@ -56,6 +62,15 @@ You should see the Free edition with `agentFinished` enabled. Ask your agent to 
 ## Manual fallback
 
 If npm installation is unavailable, unzip the package into `~/.openclaw/plugins/reply-push-v2/`, add the same entry under `plugins.entries`, restart the Gateway, and run `openclaw plugins list`.
+
+## Links
+
+- Source and issues: https://github.com/verdeoc/reply-push-v2
+- npm package: https://www.npmjs.com/package/reply-push-v2
+- ClawHub catalog search: https://clawhub.ai/?q=reply-push-v2
+- Pro edition: https://verdeoc.gumroad.com/l/openclaw-ios-notifications
+
+The ClawHub catalog may not expose a stable direct slug; use the search link above and verify the publisher before installing.
 
 ## Pro
 
