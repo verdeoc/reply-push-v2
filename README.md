@@ -67,10 +67,10 @@ If npm installation is unavailable, unzip the package into `~/.openclaw/plugins/
 
 - Source and issues: https://github.com/verdeoc/reply-push-v2
 - npm package: https://www.npmjs.com/package/reply-push-v2
-- ClawHub catalog search: https://clawhub.ai/?q=reply-push-v2
+- ClawHub plugin page: https://clawhub.ai/verdeoc/plugins/reply-push-v2
 - Pro edition: https://verdeoc.gumroad.com/l/openclaw-ios-notifications
 
-The ClawHub catalog may not expose a stable direct slug; use the search link above and verify the publisher before installing.
+Canonical ClawHub page verified for publisher `@verdeoc`, plugin `reply-push-v2`, version `2.1.1`.
 
 ## Pro
 
